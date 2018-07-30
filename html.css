@@ -1,0 +1,122 @@
+.body2{
+    
+    margin-left:20%;
+    margin-right:20%;
+    height: 100%;
+}
+
+
+
+.form{
+  float: left;
+   
+   
+       
+}
+
+.side{
+   width: 500px;
+   float: right;
+ 
+
+}
+
+table{
+    border-spacing:20px;
+}
+.side2{
+     height: 30px;
+     width: 292px;
+}
+
+body{
+   
+background: blue;
+}
+
+.main{
+    border: 1px solid white;
+    background: lightblue;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    height:25px;
+    width: 100px;
+}
+footer{
+    color: #ffffff;
+}
+
+#side2{
+     margin-right: 10px;
+}
+
+textarea{
+    margin-bottom: 15px;
+    margin-top:10px;
+    width: 600px;
+    height:70px;
+}
+
+.side2,  textarea, nontype{
+    background: none;
+    border: 1px solid white;
+}
+
+.side ul{
+    list-style-type: none;
+     margin-top: 40px;
+}
+
+.side li{
+    display: inline;
+   
+    
+}
+
+.navigation{
+    margin-right:40px;
+    margin-left: 0%;
+
+}
+
+.navigation2{
+    margin-right:146px;
+
+
+}
+
+form{
+width: 600px;
+
+}
+
+main{
+    background: #ffffff;
+    height: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    border-bottom: 3px solid lightblue
+
+}
+
+button{
+    border: 1px solid white;
+    background: lightblue;
+    color: #ffffff;
+    height:25px;
+}
+
+.world , .navigation2{
+    color: rgb(38, 39, 41)
+}
+
