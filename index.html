@@ -35,9 +35,15 @@
                 </div>
             </div>
             </section>
-
+            
+              
             <section class="secondary">
                 <div class="container">
+                    <div class="section">
+                    <a href="#" class="menu-btn">
+                        <span></span>
+                        </a>
+                        </div>
                     <div class="middle">
                         <img class="middle-logo" src="css/img/24.png" alt="Логотип"/>
                         <p class="middle-caption">Не вагайтесь! Ми знаємо, що Вам потрібно</p>
@@ -165,5 +171,21 @@
     <div class="very-footer">
 
     </div>
+    <script>
+            $('.menu-btn').on('click', function(e) {
+          e.preventDefault;
+          $(this).toggleClass('menu-btn_active');
+        });
+        
+        $('.menu-btn, .menu').click(function(){
+  $('.head-menu').toggleClass('menu-btn_active');
+})
+$(document).click(function(event) {
+    if ($(event.target).closest(".menu-btn").length ) return;
+    $('.head-menu').removeClass('menu-btn_active');
+    event.stopPropagation();
+});
+
+    </script>
   </body>
 </html>
