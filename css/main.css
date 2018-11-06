@@ -98,7 +98,8 @@ a:visited {
   background: #9ba4b3;
   opacity: 0.8;
   margin-top: 68px;
-  color: #ffffff; }
+  color: #ffffff;
+  cursor: pointer; }
 
 .middle-button:hover {
   background: #15a4fa;
@@ -161,7 +162,8 @@ a:visited {
   margin-right: 15px;
   margin-bottom: 15px;
   margin-top: 15px;
-  display: flex; }
+  display: flex;
+  cursor: pointer; }
 
 .gallery-img:hover {
   background: #15a4fa;
